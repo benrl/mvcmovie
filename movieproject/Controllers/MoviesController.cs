@@ -12,7 +12,7 @@ namespace movieproject.Controllers
     public class MoviesController : Controller
     {
         private MovieDBContext db = new MovieDBContext();
-
+    }
         //
         // GET: /Movies/
 

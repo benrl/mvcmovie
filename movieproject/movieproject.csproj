@@ -169,8 +169,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201306061359555_initial.cs" />
+    <Compile Include="Migrations\201306061359555_initial.Designer.cs">
+      <DependentUpon>201306061359555_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201306061412197_AddRatingMig.cs" />
+    <Compile Include="Migrations\201306061412197_AddRatingMig.Designer.cs">
+      <DependentUpon>201306061412197_AddRatingMig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Services\GenreService.cs" />
+    <Compile Include="Models\Services\SearchService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -298,6 +309,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201306061359555_initial.resx">
+      <DependentUpon>201306061359555_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201306061412197_AddRatingMig.resx">
+      <DependentUpon>201306061412197_AddRatingMig.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
