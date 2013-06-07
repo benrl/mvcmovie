@@ -24,4 +24,8 @@ namespace MvcMovie.Models
         [StringLength(5)]
         public string Rating { get; set; }
     }
+    public class MovieDBContext : DbContext
+    {
+        public DbSet<Movie> Movies { get; set; }
+    }
 }

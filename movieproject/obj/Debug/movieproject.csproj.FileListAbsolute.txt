@@ -99,5 +99,4 @@ C:\Projects\mvcmovie\movieproject\obj\Debug\movieproject.pdb
 C:\Projects\mvcmovie\movieproject\obj\Debug\movieproject.Migrations.initial.resources
 C:\Projects\mvcmovie\movieproject\obj\Debug\movieproject.csproj.GenerateResource.Cache
 C:\Projects\mvcmovie\movieproject\obj\Debug\movieproject.Migrations.AddRatingMig.resources
-C:\Projects\mvcmovie\movieproject\obj\Debug\MvcMovie.Migrations.initial.resources
-C:\Projects\mvcmovie\movieproject\obj\Debug\MvcMovie.Migrations.AddRatingMig.resources
+C:\Projects\mvcmovie\movieproject\obj\Debug\movieproject.Migrations.AddDataAnnotationsMig.resources
